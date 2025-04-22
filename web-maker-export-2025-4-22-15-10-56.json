@@ -1,0 +1,58 @@
+[
+  {
+    "id": "8hibo7tQ6K",
+    "title": "Untitled 22-4-14:42",
+    "createdOn": 1745358175974,
+    "externalLibs": {
+      "js": "",
+      "css": ""
+    },
+    "updatedOn": 1745359310846,
+    "createdBy": "IWRLERRIKlc7fBJExxX07BBPZaF3",
+    "jsMode": "js",
+    "sizes": [
+      33,
+      33,
+      34
+    ],
+    "layoutMode": 1,
+    "content": "",
+    "cssMode": "css",
+    "mainSizes": [
+      50,
+      50
+    ],
+    "html": "<!DOCTYPE html>\n<html>\n<head>\n  <title>My Resume</title>\n  <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css\">\n  <link rel=\"stylesheet\" href=\"style.css\">\n</head>\n<body>\n  <nav class=\"navbar navbar-dark bg-dark\">\n    <a class=\"navbar-brand\" href=\"#\">My Real Estate Site</a>\n  </nav>\n\n  <div class=\"container mt-4\">\n    <h1>My Resume</h1>\n    <h2>Education</h2>\n    <ul>\n      <li>Brigham Young University - Buisness Entrepreneurship</li>\n    </ul>\n\n    <h2>Experience</h2>\n    <ul>\n      <li>BYU Football team 2024-2028</li>\n    </ul>\n\n    <h2>Skills</h2>\n    <ul>\n      <li>Leader</li>\n      <li>Quick learner </li>\n    </ul>\n  </div>\n</body>\n</html>\n<a href=\"scratch.html\">Next Page</a>\n",
+    "htmlMode": "html",
+    "css": "body {\n  font-family: Arial, sans-serif;\n  color: #333;\n  background-color: #f0f8ff;\n}\n\nh1 {\n  color: #2c3e50;\n}\n\nul {\n  padding-left: 20px;\n}\n",
+    "js": ""
+  },
+  {
+    "createdBy": "IWRLERRIKlc7fBJExxX07BBPZaF3",
+    "css": "body {\n  background-color: #f9f9f9;\n  font-family: 'Georgia', serif;\n  color: #222;\n}\n\nh1 {\n  color: darkgreen;\n  text-align: center;\n}\n\nimg {\n  border: 3px solid #ccc;\n  margin-top: 10px;\n}\n\ndiv {\n  padding: 15px;\n}\n",
+    "createdOn": 1745359181008,
+    "externalLibs": {
+      "css": "",
+      "js": ""
+    },
+    "htmlMode": "html",
+    "title": "Untitled 22-4-14:59",
+    "id": "Y96RK62bhN",
+    "html": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Real Estate Tips 2025</title>\n  <link rel=\"stylesheet\" href=\"style.css\">\n</head>\n<body>\n  <h1 id=\"top\">How to Invest in Real Estate (2025)</h1>\n  \n  <ol>\n    <li>Research the Market\n      <ul>\n        <li>Use sites like Zillow, Redfin</li>\n      </ul>\n    </li>\n    <li>Check Your Budget\n      <ul>\n        <li>Talk to a loan officer</li>\n      </ul>\n    </li>\n  </ol>\n\n  <p><a href=\"#video\">Jump to Video</a></p>\n\n  <div>\n    <img src=\"https://images.unsplash.com/photo-1560185127-6c9b6c607a92\" width=\"300\" alt=\"House Investment\">\n  </div>\n\n  <h2 id=\"video\">Watch this Video!</h2>\n  <iframe width=\"400\" height=\"315\" src=\"https://www.youtube.com/embed/UWJbZssLKqg\" frameborder=\"0\" allowfullscreen></iframe>\n\n  <div id=\"tableau\">\n    <h2>Market Trends Graph</h2>\n    <iframe src=\"https://public.tableau.com/views/RealEstateMarketTrends/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link\" width=\"800\" height=\"600\"></iframe>\n  </div>\n\n  <a href=\"#top\">Back to top</a>\n</body>\n</html>\n<hr>\n<h2>🧮 Real Estate Budget Checker</h2>\n<p>Enter your budget:</p>\n<input type=\"number\" id=\"budget\" />\n<button onclick=\"checkBudget()\">Check</button>\n<p id=\"result\"></p>\n<a href=\"index.html\">Resume Page</a>\n",
+    "js": "function checkBudget() {\n  let budget = document.getElementById('budget').value;\n  let result = document.getElementById('result');\n\n  if (budget >= 200000) {\n    result.innerText = \"✅ You can probably afford a property!\";\n  } else if (budget > 0) {\n    result.innerText = \"💰 Keep saving up!\";\n  } else {\n    result.innerText = \"❓ Please enter a valid number.\";\n  }\n}\n",
+    "sizes": [
+      33,
+      33,
+      34
+    ],
+    "jsMode": "js",
+    "updatedOn": 1745359794869,
+    "layoutMode": 1,
+    "mainSizes": [
+      50,
+      50
+    ],
+    "content": "",
+    "cssMode": "css"
+  }
+]
